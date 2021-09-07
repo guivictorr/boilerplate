@@ -1,8 +1,8 @@
 import * as S from './styles';
 
-const HelloWorld = () => (
+const HelloWorld = ({ title }: { title: string }) => (
   <S.Container>
-    <S.Title>Hello World</S.Title>
+    <S.Title>{title}</S.Title>
   </S.Container>
 );
 
